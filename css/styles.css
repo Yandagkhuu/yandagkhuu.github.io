@@ -16,9 +16,16 @@ body{
 }
 
 .navbar-brand  h1 {
+    display: inline;
     font-family: 'Lobster', cursive;
     font-size: 1.2em;
     margin-top: 0;
+    margin-left: 10px;
+}
+
+.navbar-brand img {
+    height: 25px;
+    margin-top: -5px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
