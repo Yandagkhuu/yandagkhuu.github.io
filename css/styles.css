@@ -67,7 +67,7 @@ body{
 	box-shadow: 1px 1px 4px 0px #9FD6E3;
 }
 
-#about header, #interest header, #skill header {
+#about header, #interest header, #contact header{
 	font-family: 'Lobster', cursive;
 	color: #1976D2;
 }
@@ -123,11 +123,32 @@ body{
 
 /*Contact section start*/
 #contact {
-
+	background-color: #C8EBED;
 }
 
 
 #social img {
-	width: 5%;
+	width: 50px;
+	margin: 0px 5px 5px 5px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 2px #EEE;
+}
+
+#social {
+	padding-bottom: 50px;
+}
+
+#social a{
+	text-decoration: none;
+}
+
+#social a:hover img{
+	border: 2px solid #FFF;
 }
 /*Contact section end*/
+
+/*Footer*/
+#footer {
+	background-color: #C8EBED;
+	padding-bottom: 10px;
+}
