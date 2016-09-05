@@ -56,12 +56,15 @@ body{
 
 
 /*About section start*/
+
 #about img{
     display: block;
     margin: 0 auto;
     width: 200px;
     height: auto; 
     border-radius: 50%; 
+	border: 1px solid #C8EBED;
+	box-shadow: 0px 0px 4px 0px #9AD1DC;
 }
 
 #about header, #interest header, #skill header {
@@ -72,9 +75,12 @@ body{
 #intro {
     background: #FFF;
     padding: 10px 30px 20px 30px;
-    width: 600px;
     margin: 20px auto;
+	border-top: 1px solid #C8EBED;
+	border-left: 1px solid #C8EBED;
+	border-right: 1px solid #C8EBED;
     border-bottom: 5px solid #1976D2;
+	box-shadow: 0px 0px 4px 0px #9AD1DC;
 	border-radius: 2px;
 }
 
@@ -105,7 +111,7 @@ body{
 	border-left: 1px solid #E8E8E8;
 	border-right: 1px solid #E8E8E8;
 	border-bottom: 3px solid #1976D2;
-	box-shadow: 2px 2px 4px #BBB;
+	box-shadow: 1px 1px 5px #BBB;
 }
 
 .hobby p{
