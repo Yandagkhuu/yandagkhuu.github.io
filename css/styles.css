@@ -15,6 +15,10 @@ body{
     border:0;
 }
 
+#header-nav {
+    box-shadow: 2px 2px 6px #BBB;
+}
+
 .navbar-brand  h1 {
     display: inline;
     font-family: 'Lobster', cursive;
@@ -41,16 +45,14 @@ body{
 }
 
 #nav-list .active {
-    /*border-bottom: 2px solid darkcyan;*/
-    box-shadow: inset 0px -3px darkcyan;
+    box-shadow: inset 0px -3px #1976D2;
     color: white;
     background: #1976D2;
 }
 
 #nav-list a:hover {
-    background: #EEE;
-    /*border-bottom: 2px solid darkcyan;*/
-    box-shadow: inset 0px -3px darkcyan;
+    /*background: #EEE;*/
+    box-shadow: inset 0px -4px #1976D2;
 }
 
 #nav-list a span {
@@ -64,6 +66,7 @@ body{
 
 /*About section start*/
 
+
 #about img{
     display: block;
     margin: 0 auto;
@@ -71,7 +74,7 @@ body{
     height: auto; 
     border-radius: 50%; 
 	border: 1px solid #C8EBED;
-	box-shadow: 1px 1px 4px 0px #9FD6E3;
+	box-shadow: 1px 1px 2px 0px #9FD6E3;
 }
 
 #about header, #interest header, #contact header{
@@ -87,7 +90,7 @@ body{
 	border-left: 1px solid #C8EBED;
 	border-right: 1px solid #C8EBED;
     border-bottom: 5px solid #1976D2;
-	box-shadow: 0px 0px 4px 0px #9AD1DC;
+	box-shadow: 1px 1px 2px 1px #9AD1DC;
 	border-radius: 20px 20px 0px 0px;
 }
 
