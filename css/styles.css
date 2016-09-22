@@ -109,12 +109,14 @@ body{
 .hobby img {
     display: block;
     margin: 0 auto;
-	padding: 30px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #1976D2;  
+    
 }
 
 .hobby {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 5px;
     margin-bottom: 10px;
     background: #FFF;
 	border-top: 1px solid #E8E8E8;
@@ -122,6 +124,7 @@ body{
 	border-right: 1px solid #E8E8E8;
 	border-bottom: 3px solid #1976D2;
 	box-shadow: 1px 1px 5px #BBB;
+    border-radius: 5px;
 }
 
 .hobby p{
