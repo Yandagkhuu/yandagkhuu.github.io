@@ -111,12 +111,13 @@ body{
     margin: 0 auto;
     margin-bottom: 5px;
     padding-bottom: 10px;
-    border-bottom: 3px solid #1976D2;  
+    border-bottom: 1px solid #2178D4;  
     
 }
 
 .hobby {
     padding: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
     background: #FFF;
 	border-top: 1px solid #E8E8E8;
@@ -131,6 +132,22 @@ body{
     text-align: center;
     padding-top: 10px;
 	font-size: 1.2em;
+    font-weight: bold;
+}
+
+.hobby a{
+    color: #505050;
+}
+
+.hobby a:hover{
+    text-decoration: none;
+    color: #404040;
+}
+
+.hobby:hover{
+    box-shadow: 3px 3px 6px #BBB;
+    position: relative;
+    top:-5px;
 }
 /*Interest section end*/
 
@@ -165,3 +182,26 @@ body{
 	background-color: #C8EBED;
 	padding-bottom: 10px;
 }
+
+/*.img-wrapper {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    vertical-align: middle;
+}
+
+.img-wrapper img:hover {
+    transform:scale(1.02);
+    -ms-transform:scale(1.02); 
+    -moz-transform:scale(1.02); 
+    -webkit-transform:scale(1.02); 
+    -o-transform:scale(1.02); 
+}
+*/
